@@ -31,7 +31,7 @@ EnttecODE.prototype.send_universe = function() {
 		this.physical,
 		this.universe_id,
 		this.length,
-		this.universe.slice(1)
+		this.universe
 	])
 
 	this.dev.send(pkg, 0, pkg.length, this.port, this.host)
